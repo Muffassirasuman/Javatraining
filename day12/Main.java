@@ -4,7 +4,8 @@ public class Main{
         Scanner sc=new Scanner(System.in);
         int num=sc.nextInt();
         if(num%3==0 && num%5==0){
-            System.out.println("fizzbuzz");}
+            System.out.println("fizzbuzz");
+        }
            else if(num%3==0){
                 System.out.println("fizz");
             }
