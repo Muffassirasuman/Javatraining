@@ -13,7 +13,9 @@ public class Main{
            else if(num%5==0){
                 System.out.println("buzz");
             }
+        else{
             System.out.println("it does not divide by 3 and 5: " +num);
         }
         
     }
+}
